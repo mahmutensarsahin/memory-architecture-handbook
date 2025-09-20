@@ -20,7 +20,7 @@
 
   * Referans = takma ad.
   * Yeniden bağlanamaz, null olamaz.
-  * Derleyici optimize edebilir: isim yerine doğrudan adres kullanılabilir 'takma ad gördüğü yere değişkeni yazabilir2.
+  * Derleyici optimize edebilir: isim yerine doğrudan adres kullanılabilir 'takma adı gördüğü yere doğrudan değişkeni yazabilir'.
 
 ---
 
