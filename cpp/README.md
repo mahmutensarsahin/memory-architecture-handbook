@@ -2,7 +2,7 @@
 
 ## 1️⃣ Referans = Alias
 
-* **Kavram:** `int& a = x;` → `a`, `x` ile aynı adrestir; yeniden bağlanamaz, null olamaz.
+* **Kavram:** `int& a = x;` → `a`, `x` ile aynı adrestir; yeniden bağlanamaz, null olamaz, bellekte yer kaplamaz compiler tarafından yorumplanan sadece compile time ile ilgili bir kavramdır.
 * **Mini Senaryo:** `a` üzerinden yazmak `x`’i değiştirir.
 * **Pseudo-Assembly:**
 
@@ -20,7 +20,7 @@
 
   * Referans = takma ad.
   * Yeniden bağlanamaz, null olamaz.
-  * Derleyici optimize edebilir: isim yerine doğrudan adres kullanılabilir.
+  * Derleyici optimize edebilir: isim yerine doğrudan adres kullanılabilir 'takma ad gördüğü yere değişkeni yazabilir2.
 
 ---
 
