@@ -100,13 +100,13 @@ arr[2] = &row2;  // arr[2], row2'yi işaret eder
 **Bellek Düzeni:**
 ```
 Stack:
-arr[0] → [ptr] ──────┐
-arr[1] → [ptr] ──┐   │
-arr[2] → [ptr] ─┐│   │
-                ││   │
-row2: [7][8][9] ←┘│   │
-row1: [4][5][6] ←─┘   │
-row0: [1][2][3] ←─────┘
+arr[0] → [ptr]  ────────┐
+arr[1] → [ptr]  ────┐   │
+arr[2] → [ptr]  ─┐  │   │
+                 │  │   │
+row2: [7][8][9] ←┘  │   │
+row1: [4][5][6] ←───┘   │
+row0: [1][2][3] ←───────┘
 ```
 
 ### 4.2 `int* (**pp)[3];` — Diziye İşaretçiye İşaretçi
